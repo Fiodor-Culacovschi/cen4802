@@ -1,6 +1,14 @@
+/**
+ * The Fibonacci class contains methods to calculate the nth term in the Fibonacci sequence.
+ */
 public class Fibonacci {
 
-    // Recursive method to calculate the nth term in the Fibonacci sequence
+    /**
+     * Calculates the nth term in the Fibonacci sequence using recursion.
+     *
+     * @param n The position of the desired term in the Fibonacci sequence.
+     * @return The nth term in the Fibonacci sequence.
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -9,6 +17,11 @@ public class Fibonacci {
         }
     }
 
+    /**
+     * Main method that calls the Fibonacci method with an argument of 10 and prints the result.
+     *
+     * @param args The command-line arguments (not used in this program).
+     */
     public static void main(String[] args) {
         // Pass 10 as an argument to the fibonacci method
         int n = 10;
